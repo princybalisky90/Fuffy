@@ -1,1 +1,83 @@
 
+body {
+    font-family: sans-serif; /* Choose a modern sans-serif font */
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* White text color */
+    margin: 0; /* Reset default margin */
+}
+
+.container {
+    max-width: 960px; /* Limit container width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+header {
+    background-color: #000000; /* Even darker background for the header */
+    padding: 20px 0; /* Add some padding top and bottom */
+}
+
+nav {
+    display: flex; /* Use flexbox for easy alignment */
+    justify-content: space-between; /* Space out logo and navigation items */
+    align-items: center; /* Vertically align items */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points from navigation */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align navigation items horizontally */
+}
+
+nav li {
+    margin-left: 30px; /* Space out navigation items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #ffffff; /* White link color */
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center; /* Center the hero content */
+    padding: 80px 0; /* Add more padding for the hero section */
+    background-image: url("your-hero-image.jpg"); /* Replace with your hero image */
+    background-size: cover; /* Cover the entire hero area with the image */
+    background-position: center; /* Center the hero image */
+}
+
+.hero h2 {
+    font-size: 3rem; /* Large heading size */
+    margin-bottom: 10px; 
+}
+
+.hero p {
+    font-size: 1.2rem; 
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #28a745; /* Green button color */
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer; /* Indicate that the button is clickable */
+}
+
+section {
+    padding: 60px 0; /* Add padding to each section */
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
