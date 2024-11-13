@@ -1,4 +1,3 @@
-
 body {
     font-family: sans-serif; /* Choose a modern sans-serif font */
     background-color: #121212; /* Dark background color */
@@ -80,4 +79,15 @@ footer {
     background-color: #000000;
     text-align: center;
     padding: 20px 0;
+}
+
+/* New or modified CSS */
+.header-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between logo, title, and nav */
+}
+
+.header-container h1 { /* Style for the "Ugo" heading */
+    margin: 0 20px; /* Add some space around the heading */
 }
