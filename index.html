@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ugo</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* Existing CSS */
+        .header-container { 
+            display: flex;
+            align-items: center; /* Vertically align logo and image */
+        }
+
+        .header-container img { /* Style for your logo image */
+            max-height: 80px; /* Adjust height as needed */
+            margin-right: 20px; /* Add some space between logo and heading */
+        }
+
+        nav ul {
+            list-style: none; /* Remove bullet points from navigation */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Align navigation items horizontally */
+        }
+
+        nav li {
+            margin-left: 30px; /* Space out navigation items */
+        }
+    </style>
+</head>
 <body>
 
     <header>
         <nav>
-            <div class="container"> 
+            <div class="container header-container">
+                <img src="ugo-logo.png" alt="Ugo Logo"> 
                 <h1>Ugo</h1>
                 <ul>
                     <li><a href="#features">Features</a></li>
@@ -33,7 +58,7 @@
             <div class="container">
                 <h2>Features</h2>
                 <p>Description of Ugo's features.</p>
-                </div>
+            </div>
         </section>
 
         <section id="tokenomics">
